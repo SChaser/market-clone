@@ -1,0 +1,53 @@
+/*헤더바*/
+header {
+  margin-top: 10px;
+  border-bottom: 1px solid #ededef;
+  padding-bottom: 10px;
+}
+
+/*안포바*/
+.info-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+}
+.info-bar__time {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.info-bar__icons img {
+  width: 20px;
+}
+
+/*메뉴바*/
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: center;
+  margin-top: 10px;
+}
+.menu-bar__location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu-bar__locationame {
+  width: 72px;
+}
+.menu-bar__location-icon img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  width: 20px;
+}
+
+.menu-bar__icons2 img {
+  width: 30px;
+  margin-top: 10px;
+  padding-right: 10px;
+}
