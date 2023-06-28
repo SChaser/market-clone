@@ -45,7 +45,7 @@ main {
 }
 
 .write-btn {
-  background-color: orange;
+  background-color: var(--button-primary);
   color: white;
   border-radius: 20px;
   font-size: 15px;
@@ -55,4 +55,29 @@ main {
   position: fixed;
   bottom: 120px;
   right: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.write-btn:hover {
+  background-color: var(--button-hover);
+}
+
+@keyframes icons-둥둥 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.footer-icons__img {
+  width: 30px;
+}
+
+.footer-icons:hover .footer-icons__img {
+  animation: 1.5s icons-둥둥 infinite;
 }
