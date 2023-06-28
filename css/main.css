@@ -4,7 +4,6 @@ main {
 
 .item-list {
   display: flex;
-  justify-content: center;
   align-items: center;
   border-bottom: 1px solid #ededef;
   padding: 20px 0 20px 0;
@@ -19,6 +18,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .item-list__img img {
   width: 50px;

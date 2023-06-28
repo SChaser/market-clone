@@ -37,6 +37,7 @@ header {
 
 .menu-bar__locationame {
   width: 72px;
+  cursor: pointer;
 }
 .menu-bar__location-icon img {
   display: flex;
@@ -44,10 +45,12 @@ header {
   align-items: center;
   padding-top: 5px;
   width: 20px;
+  cursor: pointer;
 }
 
 .menu-bar__icons2 img {
   width: 30px;
   margin-top: 10px;
   padding-right: 10px;
+  cursor: pointer;
 }
