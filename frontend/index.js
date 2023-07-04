@@ -1,16 +1,3 @@
-{
-  /* <div class="item-list">
-  <div class="item-list__img">
-    <img src="assets/img.svg" alt="" />
-  </div>
-  <div class="item-list__info">
-    <div class="item-list__info-title">게이밍 pc 팝니다.</div>
-    <div class="item-list__info-meta">역삼동 19초 전</div>
-    <div class="item-list__info-price">100만원</div>
-  </div>
-</div>; */
-}
-
 const calcTime = (timestamp) => {
   //한국시간 UTC+9을 세계시간으로 맞추기
   const curTime = new Date().getTime() - 9 * 60 * 60 * 1000;
@@ -22,7 +9,7 @@ const calcTime = (timestamp) => {
   if (hour > 0) return `${hour}시간 전`;
   else if (minute > 0) return `${minute}분 전`;
   else if (second > 0) return `${second}초 전`;
-  else "방금 전";
+  else return "방금 전";
 };
 
 const renderData = (data) => {
