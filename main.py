@@ -3,7 +3,7 @@ from fastapi.responses import JSONResponse;
 from fastapi.encoders import jsonable_encoder;
 from fastapi.staticfiles import StaticFiles;
 from typing import Annotated;
-import sqlite3
+import sqlite3;
 
 con = sqlite3.connect('dd.db',check_same_thread=False)
 cur = con.cursor()
